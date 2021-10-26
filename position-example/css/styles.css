@@ -14,6 +14,10 @@ p {
     padding: 5px;
 }
 
+.text {
+    padding: 10px;
+}
+
 .wrapper {
     height: 100%;
     max-width: 1000px;
@@ -32,8 +36,8 @@ p {
     background-color: #000000;
     border-radius: 9999px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0; /* Används enbart för position*/
+    right: 0; /* Används enbart för position*/
 }
 
 .fixed {
@@ -52,5 +56,5 @@ p {
     text-align: center;
     font-weight: 700;
     position: sticky;
-    top: 10px;
+    top: 10px; /* Används enbart för position*/
 }
